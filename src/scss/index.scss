@@ -36,6 +36,7 @@ input[type=number]::-webkit-outer-spin-button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  box-shadow: 7px 7px 10px 0 black;
 }
 form {
   width: 100%;  
@@ -62,7 +63,6 @@ input[type="number"] {
 .radioButtons {
   display: flex;
   align-items: center;
-  // justify-content: space-around;
   width: 90%;
   input {
     margin: 0 10px;
@@ -89,7 +89,7 @@ input[type="number"] {
   p {
     margin: 5px;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
   }
   
 }
