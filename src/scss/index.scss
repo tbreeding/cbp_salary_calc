@@ -36,7 +36,7 @@ input[type=number]::-webkit-outer-spin-button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 7px 7px 10px 0 black;
+  box-shadow: inset 0 0 10px 0 black, 10px 10px 10px 0 black;
 }
 form {
   width: 100%;  
